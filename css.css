@@ -1,0 +1,12 @@
+#navigation {margin:10px 30px 10px auto;}
+#navigation th {padding-right:1em ;}
+th a {color:rgb(33,3,211); font-weight:normal;text-decoration:none;}
+#logo img{width:220px;height:60px;}
+#logo{position:absolute; top:12px;left:60px;}
+footer{position:absolute;margin-bottom:0px;right:30px;background-color:black;padding-left:7px;}
+#footer a{color:white;padding-left:7px;padding-right:7px;}
+.twitter{width:20px;height:20px;}
+.youtube{width:50px;height:25px;}
+.facebook{margin-left:5px;width:9;height:16;}
+a:hover {color:red;}
+		

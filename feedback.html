@@ -1,0 +1,82 @@
+<html>
+<head>
+	<title>Feedbacks</title>
+	<link rel="shortcut icon" type="text/x-icon" href="Untitled.png">
+	<!-- we used background-size to make the image cover the background-->
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<style type="text/css" rel="stylesheets" >
+		
+		body{background-image:url("UNI9940.jpg");background-repeat:no-repeat;background-position:center center;background-attachment:fixed;background-size:cover;}
+
+		form{background-image:url("UNI9940.jpg") ; background-repeat:no-repeat;background-size:cover; border-radius:30px;}   
+		form{margin-top:7%;margin-left:5%;margin-right:5%;}
+		fieldset{border-radius:10px;border-style:solid;padding:30px;}
+		legend{font-family:arial;background-color:grey ; border: 1px solid white; border-radius:5px; padding:10px; color:yellow}
+		.title{float:left;clear:left; width:30%; font-size:14pt;font-family:arial; margin:7px; color:white;}
+		input,select,textarea{padding:3px; margin:7px; width:12em; color:rgb(10,200,70);font-family:comic sans ms;}
+		input[type="radio"]{padding:3px; margin:7px; width:10px; color:rgb(10,200,70);}
+		.pay{font-size:14pt;font-family:arial; margin:7px; color:rgb(10,200,70);font-family:comic sans ms;}
+		input[name="amount"]{text-align:right;clear:right;}
+		input[type="submit"]{border-radius:30px; margin-right:auto ; margin-left:auto;margin-left:40%;margin-top:50px;}
+		input[type="submit"]:hover{color:red;}
+	</style>
+	
+</head>
+
+<body >
+<div id="logo">
+	<a href="homepage.html"><img src="logo.png"/></a>
+</div>
+
+<table id="navigation">
+	<tr>
+		<th><a href="aboutus.html">About Us</a></th>
+		<th><a href="help.html">Our Projects</a></th>	
+		<th><a href="join.html">Join Us</a></th>
+		<th><a href="donate.html">Support Us</a></th>
+		<th><a href="login.html">Member Login</a></th>
+		<th><a href="feedback.html">Feedback</a></th>
+	</tr>
+</table>
+
+
+<!------------------------------------------- 	MAIN PART ----------------------------------------->
+
+<form method="post" action="submit.html" target="_blank">
+	<fieldset>
+		<legend>Please enter the following information</legend>
+		
+		<label class="title" for="name">Name<span style="color:red">*</span> :</label> <input type="text" required="required"name="name" placeholder="Full Name...."/><br/>
+		
+		<span class="title">Gender : </span>
+		<input type="radio" name="bank" value="Male" /><label class="pay" for="bank">Male</label>
+		<input type="radio" name="bank" value="Female"/><label class="pay" for="bank">Female</label>
+		<input type="radio" name="bank" value="Other"/><label class="pay" for="bank">Other</label><br/>
+		
+		<label class="title" for="date">Date of Birth :</label> <input type="date" name="date"/><br/>
+		
+		<label class="title" for="email" />Email<span style="color:red">*</span> :</label> <input type="email" required="required" name="email" placeholder="abc@email.com"/><br/>
+		<label class="title" for="mobile"/>Mobile No. :</label> <input type="number" name="mobile"/><br/>
+		<label class="title" for="comments">Comments : </label><textarea style="width:35%" rows="6" cols="90" name="comments" placeholder="Your Valuable Comments Here.........."></textarea><br/>
+		<input type="submit" name="submit" />
+		
+	</fieldset>
+</form>
+
+
+<!------------------------------------------- End of MAIN PART -------------------------------------->
+
+
+<footer>
+<table>
+	<tr id="footer">
+		<th><a href="members.html">Members</a></th>
+		<th><a href="Contact.html">Contact Us</a></th>		
+		<th><a href="https://www.facebook.com/BeingHumanOnline" target="_blank"><img class="facebook" src="facebook.png" /></a></th>
+		<th><a href="https://www.youtube.com/channel/UC7eKam6URdsicf2hbmh9dHg" target="_blank"><img class="youtube" src="youtube.png" /></a></th>
+		<th><a href="https://twitter.com/tweetbeinghuman" target="_blank"><img class="twitter" src="twitter.png" /></a></th>		
+	</tr>
+</table>
+</footer>
+
+</body>
